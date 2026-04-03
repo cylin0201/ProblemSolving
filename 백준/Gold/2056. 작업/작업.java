@@ -33,14 +33,14 @@ class Main{
         Queue<Integer> q = new ArrayDeque<>();
         for (int i = 1; i <= N; i++){
             if (deg[i] == 0) q.offer(i);
-            dp[i] = time[i];
         }
 
         while (!q.isEmpty()){
             int cur = q.poll();
+            dp[cur] += time[cur];
 
             for (int next: graph[cur]){
-                dp[next] = Math.max(dp[next], dp[cur] + time[next]);
+                dp[next] = Math.max(dp[next], dp[cur]);
                 deg[next] --;
                 if (deg[next] == 0){
                     q.offer(next);
