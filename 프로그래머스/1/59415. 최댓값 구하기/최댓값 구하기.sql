@@ -1,4 +1,3 @@
-select DATETIME as '시간' 
-from ANIMAL_INS
-order by DATETIME desc
-limit 1;
+select DATETIME as 시간
+from (select * from ANIMAL_INS order by DATETIME desc)
+where rownum = 1;
