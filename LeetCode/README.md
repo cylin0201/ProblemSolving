@@ -16,4 +16,8 @@ LeetCode 문제 풀이 기록입니다.
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/cylin0201/ProblemSolving/tree/main/LeetCode/0242-valid-anagram) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/cylin0201/ProblemSolving/tree/main/LeetCode/0009-palindrome-number) |
 <!---LeetCode Topics End-->
