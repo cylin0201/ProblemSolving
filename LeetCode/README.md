@@ -20,4 +20,8 @@ LeetCode 문제 풀이 기록입니다.
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/cylin0201/ProblemSolving/tree/main/LeetCode/0009-palindrome-number) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/cylin0201/ProblemSolving/tree/main/LeetCode/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
